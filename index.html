@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#101d3a"><title>After Hours — School Sleepwear</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">A little comfort goes a long way <span>✳</span> Free school delivery over £45</div>
+  <header class="site-header">
+    <button class="icon-button menu-toggle" aria-label="Open menu">☰</button>
+    <a class="brand" href="#top">after<span>hours</span><i>✳</i></a>
+    <nav class="main-nav"><a href="#shop">SHOP ALL</a><a href="#shop" data-category="Sets">PYJAMA SETS</a><a href="#shop" data-category="Slogan">SCHOOL SPIRIT</a><a href="#story">OUR STORY</a></nav>
+    <div class="header-actions"><button class="icon-button search-toggle" aria-label="Search">⌕</button><button class="icon-button account-button" aria-label="Account">♙</button><button class="bag-button">BAG <span id="bag-count">0</span></button></div>
+  </header>
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy"><span class="eyebrow">MADE FOR YOUR OFF-DUTY HOURS</span><h1>School days end.<br><em>Comfort begins.</em></h1><p>Soft, feel-good sleepwear for the people who make our school community special.</p><a class="button dark" href="#shop">SHOP THE COLLECTION <span>↗</span></a><div class="hero-note"><span>✳</span> Designed for your school community</div></div>
+      <div class="hero-photo"><img src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=1300&q=85" alt="Cosy neutral bedroom with soft bedding"><div class="photo-stamp">OFF DUTY<br>ON COMFORT</div><div class="float-card"><span class="small-heart">♡</span><span>Soft things<br>for sweet dreams</span></div></div>
+      <div class="hero-side">THE AFTER HOURS COLLECTION · 2025</div>
+    </section>
+    <section class="values"><div><b>01</b> MADE FOR EVERY BODY</div><div><b>02</b> SCHOOL COMMUNITY FIRST</div><div><b>03</b> COMFORT YOU CAN FEEL</div></section>
+    <section class="shop-section" id="shop">
+      <div class="section-heading"><div><span class="eyebrow">YOUR NEW WIND-DOWN ROUTINE</span><h2>Find your <em>feel-good.</em></h2></div><a href="#shop" class="text-link" id="clear-filters">VIEW ALL <span>↗</span></a></div>
+      <div class="shop-tools"><div class="filters"><button class="filter active" data-filter="All">All pieces <span>08</span></button><button class="filter" data-filter="Sets">Pyjama sets</button><button class="filter" data-filter="Slogan">School spirit</button><button class="filter" data-filter="Accessories">Little extras</button></div><label class="search-box"><span>⌕</span><input id="search" placeholder="Find your favourite…"></label></div>
+      <div class="product-grid" id="product-grid"></div>
+      <div class="shop-bottom"><span>GOOD THINGS COME TO THOSE WHO GET COSY.</span><button class="outline-button" id="load-more">YOU'VE SEEN THE GOOD STUFF <span>✳</span></button><span>08 / 08</span></div>
+    </section>
+    <section class="community" id="story"><div class="community-image"><img src="https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=1200&q=85" alt="A relaxed, cosy moment at home"><span class="image-caption">A softer side of school life</span></div><div class="community-copy"><span class="eyebrow">MORE THAN A PYJAMA PARTY</span><h2>Made for the<br><em>in-between.</em></h2><p>Early alarms. Big ideas. Long days. We think everyone in our school community deserves a softer landing at the end of it all.</p><p>Every After Hours piece is made to help staff and students unwind, feel good and show a little school spirit.</p><a class="text-link" href="#shop">GET TO KNOW US <span>↗</span></a><div class="scribble">with love,<br>after hours <span>♡</span></div></div></section>
+    <section class="newsletter"><div><span class="eyebrow">THE COSY LIST</span><h2>A little good in your inbox.</h2></div><form id="newsletter-form"><input type="email" placeholder="Your school email address" required><button>COUNT ME IN ↗</button></form><small>School community only. No spam, just the soft stuff.</small></section>
+  </main>
+  <footer><a class="brand" href="#top">after<span>hours</span><i>✳</i></a><span>MADE FOR THE HOURS THAT ARE ALL YOURS.</span><span>© AFTER HOURS 2025</span></footer>
+  <div class="overlay" id="overlay"></div>
+  <aside class="drawer" id="cart-drawer"><div class="drawer-head"><h3>Your bag <span id="drawer-count">(0)</span></h3><button class="close-drawer" aria-label="Close">×</button></div><div id="cart-items" class="cart-items"></div><div class="cart-footer"><div class="subtotal"><span>Subtotal</span><b id="subtotal">£0.00</b></div><p>Shipping and school delivery calculated at checkout.</p><button class="button dark full" id="checkout">CHECK OUT <span>↗</span></button><div class="secure-note">♡ &nbsp; A little treat, safely yours</div></div></aside>
+  <div class="modal" id="account-modal"><button class="modal-close" aria-label="Close">×</button><span class="eyebrow">WELCOME TO YOUR HAPPY PLACE</span><h2 id="account-title">Join the <em>cosy club.</em></h2><p id="account-hint">Sign up with your school email to shop After Hours.</p><form id="account-form"><label>Your name<input id="account-name" placeholder="First and last name" required></label><label>School email<input id="account-email" type="email" placeholder="you@school.ac.uk" required></label><label>Password<input id="account-password" type="password" placeholder="At least 8 characters" minlength="8" required></label><button class="button dark full" id="account-submit">CREATE ACCOUNT <span>↗</span></button></form><p class="switch-mode"><span id="switch-prompt">Already part of the club?</span> <button id="switch-account">Log in</button></p><div class="form-message" id="account-message"></div></div>
+  <div class="toast" id="toast"></div>
+  <script src="app.js"></script>
+</body></html>
