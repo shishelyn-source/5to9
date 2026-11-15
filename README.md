@@ -6,14 +6,15 @@ A responsive storefront prototype for 5to9, a cosy evening and sleepwear shop in
 
 Open `index.html` in a browser, or serve the folder with any static web server.
 
-## Prototype features
+## Storefront features
 
 - Product grid with category filters for long pyjamas, bonnets, eye masks, slippers, and socks
 - Quick add, bag quantities, and subtotal
-- Sign up and log in screens using a school email address
-- Wishlist buttons, launch-notification signup prompt, and checkout handoff message
+- Matching bedtime sets pairing pyjamas with coordinated accessories
+- Sign up and log in screens restricted to `@benenden.school` addresses
+- Wishlist buttons and contact/social placeholders
 - Responsive layout with navy, pink, and white styling
 
-## Before launch
+## Before taking real orders
 
-Accounts and the bag are stored in the current browser using `localStorage`. This is a visual prototype only: it does not verify school email ownership, send launch emails, save a real mailing list, or take payment. Do not use it to collect real passwords. Before accepting orders, replace account handling with a secure authentication service, connect the launch form to an email service, and connect checkout to a payment provider and order backend. Product imagery currently loads from Unsplash.
+This is a front-end storefront prototype. Accounts and the bag are stored in the current browser using `localStorage`; the email domain check does not verify school email ownership, and checkout does not take payment or submit orders. Do not use it to collect real passwords or accept real orders until a secure authentication service and payment/order backend are connected. Contact, Instagram, and TikTok details are placeholders pending the owner's links. Product imagery currently loads from Unsplash.
