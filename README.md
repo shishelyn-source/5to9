@@ -1,6 +1,6 @@
 # 5to9 — Your New Bedtime Obsession
 
-A responsive storefront prototype for 5to9, a cosy evening and sleepwear shop inspired by the supplied poster. The visual identity uses the 5to9 wordmark, midnight navy, blush pink, stars, and the line “9 to 5 is theirs. 5 to 9 is yours.”
+A responsive storefront prototype for 5to9, a cosy evening and sleepwear shop inspired by the supplied poster. The visual identity uses the 5to9 wordmark, midnight navy, blush pink, stars, and the line “9 to 5 is theirs. Make 5 to 9 yours.”
 
 ## Run locally
 
